@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  background-image: url(https://github.com/iuripedroso/Estudos_HTML-CSS02/blob/main/trabalhos/layout%20copia/background.PNG?raw=true);
+  background-image: url(imgs/background.PNG);
 }
 
 .material-symbols-outlined {
@@ -31,7 +31,7 @@ body {
   max-width: 900px;
   height: 100vh;
 
-  background-image: url(https://github.com/iuripedroso/Estudos_HTML-CSS02/blob/main/trabalhos/layout%20copia/background.PNG?raw=true);
+  background-image: url(imgs/background.PNG);
   margin: 0 auto;
   margin-bottom: 10%;
   padding: 6px;
