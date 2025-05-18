@@ -1,0 +1,268 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  color: aliceblue;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(https://github.com/iuripedroso/Estudos_HTML-CSS02/blob/main/trabalhos/layout%20copia/background.PNG?raw=true);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 20;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  height: 100vh;
+
+  background-image: url(https://github.com/iuripedroso/Estudos_HTML-CSS02/blob/main/trabalhos/layout%20copia/background.PNG?raw=true);
+  margin: 0 auto;
+  margin-bottom: 10%;
+  padding: 6px;
+}
+
+.logo {
+  display: flex;
+  /*border: white solid 2px;*/
+  margin-top: 12px;
+  align-items: center;
+}
+
+.logo__img {
+  display: flex;
+  /*border: rgb(24, 9, 153) solid 2px;*/
+  width: 3%;
+  aspect-ratio: 1/1.5;
+  margin: 2px;
+}
+
+.logo__titulo {
+
+  margin: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 320;
+  font-size: 20px;
+}
+
+.logo__engrenagem {
+  display: flex;
+  width: 4%;
+  aspect-ratio: 1/1;
+  background-color: #22222C;
+  margin-left: auto;
+  border-radius: 5px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+/**arrumar a sintaxe em cima**/
+
+.title {
+  width: 450px;
+  margin: auto auto 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5625rem;
+  text-align: center;
+  /*border: white solid 2px;*/
+}
+
+.type {
+  display: flex;
+  background-color: #22222C;
+  border-radius: 10px;
+  border: #2A2B35 solid 2px;
+
+  width: 100%;
+  height: 200px;
+}
+
+.type p {
+  height: 25px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2%;
+  margin-top: 2%;
+  font-size: 18px;
+  color: #8789a1;
+}
+
+.type p:hover {
+  opacity: 0;
+}
+
+.marker {
+  display: flex;
+  /*border: #ffffff solid 2px;*/
+}
+
+.marker01 {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: #8789a1 solid 1px;
+  margin: auto 12px auto 0px;
+  height: 14px;
+  aspect-ratio: 1/1;
+  border-radius: 4px;
+
+  color: #8789a1;
+}
+
+.marker02 {
+  border: #8789a1 solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto 12px auto 30px;
+
+  height: 14px;
+  aspect-ratio: 1/1;
+  border-radius: 4px;
+}
+
+
+.marker__text {
+
+  /*border: #ffffff solid 2px;*/
+  margin: auto 0px auto auto;
+}
+
+.marker p {
+  font-family: Arial, Helvetica, sans-serif;
+  /*border: blue solid 3px;*/
+  padding: 1px 0 0 0;
+  color: #8789a1;
+}
+
+.status {
+  /*border: white solid 2px;*/
+  display: flex;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.status div {
+  /*border: white solid 2px;*/
+  width: 33.3333333%;
+}
+
+.status01 {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 10px 10px 0;
+  background-color: #D3A1FA;
+
+}
+
+
+.status01 h1 {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 45px;
+  letter-spacing: 0px;
+  color: #121119;
+  font-weight: 800;
+  margin: 0;
+}
+
+.status01 p {
+  color: #121119;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  margin: 0;
+
+  font-size: 18px;
+}
+
+
+.status02 {
+  padding: 20px;
+  margin: 10px;
+  background-color: #FF9F00;
+  border-radius: 10px;
+}
+
+
+.status03 {
+  padding: 20px;
+  margin: 10px 0px 10px 10px;
+  background-color: #FF8159;
+  border-radius: 10px;
+}
+
+/**fatorar**/
+
+.status02 h1 {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 45px;
+  letter-spacing: 0px;
+  color: #121119;
+  font-weight: 800;
+  margin: 0;
+}
+
+.status02 p {
+  color: #121119;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  margin: 0;
+
+  font-size: 18px;
+}
+
+.status03 h1 {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 45px;
+  letter-spacing: 0px;
+  color: #121119;
+  font-weight: 800;
+  margin: 0;
+}
+
+.status03 p {
+  color: #121119;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  margin: 0;
+
+  font-size: 18px;
+}
+
+h2 {
+  font-family: 'Satoshi', sans-serif;
+  text-transform: capitalize;
+  font-weight: 250;
+
+  color: rgb(247, 223, 192);
+}
+
+p {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 100;
+
+  color: rgb(247, 223, 192);
+}
